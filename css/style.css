@@ -453,7 +453,7 @@ i.heart{
 	background-size:cover;
 	padding:11em 0 0 0;
 	min-height: 660px;
-	filter:brightness(50%);
+	filter:brightness(70%);
 }
 .important-people-head h3{
 	color: #000000;
@@ -1019,7 +1019,7 @@ i.tw:hover,i.fb:hover{
 }
 .banners>div {
 	padding-bottom: 34px;
-	width: 33.3%;
+	width: 33%;
 	float: left;
 	font-size: 14px;
 	background: url(../images/banner_shadow.png) right 0 repeat-y #fdfdfb;
