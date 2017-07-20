@@ -1711,7 +1711,6 @@ margin-bottom:3em;
 	}
 	.happy-couple-grid {
 		padding: 0 30px 0 0;
-		width: 50%;
 		float: left;
 	}
 	.happy-couple-grid:nth-child(2) {
@@ -2440,8 +2439,9 @@ margin-bottom:3em;
 		width: 40%;
 	}
 	.banner-info {
-		left: 10em;
+		left: 7em;
 		top: 2em;
+		width: 45%;
 	}
 	.birds img {
 		left: 4.6em;
