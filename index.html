@@ -3,14 +3,26 @@
 <head>
 <title>Rudresh & Mira</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
 <script src="js/modernizr.custom.js"></script>
+
+
 <!-- Custom Theme files -->
 <link href="css/style.css?v=1.0" rel="stylesheet" type="text/css" media="all" />
+
+
+<!-- *** PRIYANK PLEASE help me add styling from contact.css for the footer <link rel="stylesheet" type="text/css" href="css/contact.css">   -->  
+
+
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+
 <!--webfont-->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
@@ -115,19 +127,31 @@
 		 </div>
 	 <!-- content-section-ends -->
 	 <!-- footer-section-starts -->
-	 <div class="footer">
-		<div class="map">
+	
+	<div class="footer">
+	<div class="container">
+	<div class="map">
+		<iframe src="https://www.google.com/maps?q=1801 Washington Valley Rd,Martinsville, NJ 08836&output=embed" width="100%" height="650px" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	
+	<div class="contact-form">
+		<h1 class="title">Message Us!</h1>
+		<h2 class="subtitle">Contact us if you have any questions :)</h2>
+		<form action="">
+			<input type="text" name="name" placeholder="Your Name" />
+			<input type="email" name="e-mail" placeholder="Your E-mail Adress" />
+			<input type="tel" name="phone" placeholder="Your Phone Number"/>
+			<textarea name="text" id="" rows="8" placeholder="Your Message"></textarea>
+			<button class="btn-send">Get a Call Back</button>
+		</form>
+		
+	</div>
+
+		<!-- OLD MAP <div class="map">
 			<iframe src="https://www.google.com/maps?q=1801 Washington Valley Rd,Martinsville, NJ 08836&output=embed" frameborder="0" style="border:0"></iframe>
-			<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d396369.7968760607!2d-94.5757195!3d39.091919000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0f75eafe99997%3A0x558525e66aaa51a2!2sKansas+City%2C+MO%2C+USA!5e0!3m2!1sen!2sin!4v1416895090472"  frameborder="0" style="border:0"></iframe> -->
 			<div class="map-layer text-center">
-				<div class="social-icons">
-					<a href="#"><i class="facebook"></i></a>
-					<a href="#"><i class="twitter"></i></a>
-					<a href="#"><i class="google-pluse"></i></a>
-					<a href="#"><i class="pinterest"></i></a>
-				</div>
 			</div>
-		</div>
+		</div>-->
 	 </div>
 	 <!-- footer-section-ends -->
 </body>
