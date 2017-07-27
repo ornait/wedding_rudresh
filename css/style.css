@@ -280,7 +280,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	text-decoration:none;
 }
 .top-menu ul li a.active {
-	color: #8fd400;
+	color: #fff;
 }
 /* Effect 16: fall down */
 .cl-effect-16 a {
@@ -288,7 +288,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	text-shadow: 0 0 1px rgba(111,134,134,0.3);
 }
 .cl-effect-16 a::before {
-	color: #8fd400;
+	color: #fff;
 	content: attr(data-hover);
 	position: absolute;
 	opacity: 0;
@@ -309,16 +309,16 @@ ul.callbacks_tabs.callbacks1_tabs {
 	transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
 	opacity: 1;
 }
-i.heart{
+/* i.heart{
 	width:15px;
 	height:15px;
-	background: url('../images/heart.png') no-repeat 0px 0px;
+	background: url('../images/s-hearts.png') no-repeat 0px 0px;
 	display:inline-block;
 	vertical-align: middle;
 	margin: 0 2px 5px 0;
-}
+} */
 .logo a  {
-	color: #8fd400;
+	color: #fff;
 	font-size: 6.5em;
 	font-family: 'Niconne', cursive;
 	margin-bottom: 1em;
@@ -438,10 +438,10 @@ i.heart{
     float: left;
     width: 100%;
     font-size: 18px;
-    color: #545f1d;
+    color: #000080;
     font-weight: 700;
     clear: both;
-    background: #d7eb9c;
+    background: #fff;
     padding: 4px;
     margin-top: 27px;
 }
@@ -1037,10 +1037,10 @@ i.tw:hover,i.fb:hover{
 	color: #fff;
 	font-weight: 500;
 	font-size: 2.6em;
-	background: #8fd301;
+	background: #000080;
 }
 .banners>div:first-child+div h3 {
-	background: #C6E08F;
+	background: #000080;
 }
 .span-head h3 {
 	color: #fff;
@@ -1201,13 +1201,13 @@ h5.top-1 {
 	padding: 4em 0;
 }
 a.button-1.top:hover {
-	color: #8fd301;
+	color: #000080;
 }
 .w-top-menu{
 	margin:0;
 }
 .wedding-banner-info {
-	background:#597F09;
+	background:#000080;
 	padding: 2em 0 10px 0;
 }
 .contact-content {
